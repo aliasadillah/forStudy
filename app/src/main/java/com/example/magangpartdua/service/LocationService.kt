@@ -1,3 +1,5 @@
+package com.getlocationbackground.service
+
 import android.Manifest
 import android.app.Notification
 import android.app.NotificationChannel
@@ -133,5 +135,3 @@ class LocationService : Service() {
         }
     }
 }
-
-

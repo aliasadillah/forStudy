@@ -1,12 +1,12 @@
 package com.getlocationbackground.receiver
 
-import LocationService
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
 import android.os.Build
 import android.util.Log
 import android.widget.Toast
+import com.getlocationbackground.service.LocationService
 
 class RestartBackgroundService : BroadcastReceiver() {
     override fun onReceive(context: Context?, intent: Intent?) {
